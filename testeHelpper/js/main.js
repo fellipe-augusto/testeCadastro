@@ -130,5 +130,8 @@ function validarDados(){
         alert("Estado não informada.");
         estado.focus();
         return;
+    } else {
+        alert("Cadastro realizado!");
+        return;
     }
 }
